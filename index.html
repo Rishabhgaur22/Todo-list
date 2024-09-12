@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body style = "background-color:black;color : white">
+        <div style = "display: flex;justify-content : center;margin-top : 70px">
+            <h1 >
+                To Do App.
+            </h1>
+        </div>
+        
+
+        <div class = "box"> <!-- Parent Div-->
+            <h2 style = "display: flex;justify-content : center">To do List</h2>
+            <div>
+                <input type="text" placeholder = "Enter To-Do here..." class = "input_box"/>
+            </div>
+            <div>
+                <button onclick = "Addtodo()" class = "Add_btn" >Add To-Do</button>        
+            </div>
+            <div id = "todo-list" >
+                <!-- All todos via add button here.....-->
+            </div>
+        </div>
+        <script src = "work.js"></script>
+    </body>
+</html>

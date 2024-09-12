@@ -1,0 +1,89 @@
+.box{
+    border-radius : 5px;
+    margin-top: 150px;
+    margin-left: 450px;
+    margin-right : 450px;
+
+    padding-top : 15px;
+    padding-bottom: 5px;
+    padding-left : 5px;
+    padding-right: 5px;
+
+    color:white;
+    background-color: #1d1c1c;
+
+    max-height: 100%;
+    
+}
+.input_box{
+    background-color: black;
+    color: white;
+
+    border: none;
+    border-radius:5px;
+    
+    height : 40px;
+    width: 598px;
+    margin-bottom : 5px
+
+}
+.Add_btn{
+    height : 35px;
+    width: 598px;
+    margin-bottom : 20px;
+    cursor: pointer;
+    
+    color: white;
+    background-color: #4daafc;
+
+    border: none;
+    border-radius:5px;
+}
+.todos{
+    display : flex;
+    font-size: 20px;
+    justify-content : space-between;
+
+    background-color: rgb(0, 0, 0);
+
+    border : 10px;
+    border-radius:5px;
+
+    padding : 7px;
+    margin-bottom: 5px;
+
+
+    overflow-x: auto;
+    overflow: hidden; /* Hide overflowing text within the span */
+
+}
+.todo-list{
+    background-color: #1d1c1c;
+    width: 598px;
+    overflow: auto;
+}
+
+.Dltbtn{
+    color : white;
+    background-color: red;
+
+    border: none;
+    border-radius: 2px;
+}
+
+.Editbtn{
+    color : white;
+    background-color: #a881af;
+
+    border : none;
+    border-radius : 2px;
+
+    margin-right : 5px;
+}
+#main{
+    display: flex;
+    justify-content : center;
+    margin-top : 70px;
+    border-width: 5px;
+    border-color: aqua;
+}
